@@ -29,4 +29,4 @@ for file in os.listdir(this_dir_path):
         new_content = content.replace(imagePath, prefix+type)
         with open(os.path.join(this_dir_path, file), 'w', encoding='utf-8') as nf:
             nf.write(new_content)
-        print("    imagepath:"+imagePath+'---->'+ prefix+type)
+        print("imagepath:"+imagePath+'---->'+ prefix+type)
